@@ -1,0 +1,38 @@
+.center-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain{
+    border-collapse: collapse;
+}
+table{
+    margin: 50px 10px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+thead{
+    margin: 0;
+    padding: 0;
+}
+
+th{
+    background-color: rgba(4, 98, 98, 0.972);
+    color: #fff;
+    padding: 10px;
+    padding-right: 80px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 18px 5px;
+}
+tr{
+    border: solid 2px rgb(223, 220, 220);
+}

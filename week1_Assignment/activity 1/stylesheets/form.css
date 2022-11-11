@@ -1,0 +1,47 @@
+.manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-arrange{
+    display: block;
+    padding: 10px 20px;
+    margin: 10px;
+   
+}
+label{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    color: red;
+    font-size: 18px;
+}
+.form-arrange input{
+    display: block;
+    height: 25px;
+    max-width: 300px;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.button input {
+    padding: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.form-arrange input:hover, .button input:hover{
+    background-color: rgb(225, 223, 223);
+    border-radius: 5px;
+    border: solid rgb(70, 69, 69) 2px;
+}
